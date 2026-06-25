@@ -341,7 +341,9 @@ async def cmd_day(m: Message, command: CommandObject):
         f"_{ex_desc}_\n\n"
         f"{goal_line}\n\n"
         f"{hint_line}\n\n"
-        f"🔋 {p['stamina']}/{STAMINA_MAX} · 🔥 {p['streak']} дней{ret}",
+        f"🔋 {p['stamina']}/{STAMINA_MAX} · 🔥 {p['streak']} дней{ret}\n\n"
+        f"━━━━━━━━━━\n"
+        f"Записал подходы? → /done",
         parse_mode="Markdown")
 
 
